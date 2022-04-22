@@ -1,1 +1,1 @@
-# programacion-python-IC-editorial
+# Repositorio del libro Programación en Python de IC Editorial
