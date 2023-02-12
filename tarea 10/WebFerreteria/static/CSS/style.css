@@ -1,0 +1,56 @@
+
+/*Afecta a todo el documento, menos si sustituimos alguna etiqueta
+en un selector de los de más abajo*/
+
+
+body { color: black; background-color: beige; text-indent: 2cm }
+
+
+
+
+/*Esto seleccionará el título*/
+h1{
+  background-color: aqua;
+  color: white;
+  text-align: center;
+  
+}
+
+
+/*Se selecciona el id con el símbolo # */
+
+#tiendas{
+	
+	
+	font-family: GrayText;
+	color: lightcoral;
+	font-size: 250%;
+	text-align: center;
+	
+}
+
+#presentacion{
+	
+	
+	font-family: GrayText;
+	color: green;
+	font-size: 180%;
+	text-align: center;
+	
+	
+	
+}
+
+
+
+
+#formulario{
+	
+  background-color: grey;
+  color: orange;
+  text-align: center-right;
+  font-family: Helvetica;
+  font-size: 140%;	
+  border: 4px dotted blue;
+	
+}

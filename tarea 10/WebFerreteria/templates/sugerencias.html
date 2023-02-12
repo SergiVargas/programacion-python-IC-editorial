@@ -1,0 +1,50 @@
+
+<!DOCTYPE HTML>
+
+
+<html lang = "es">
+
+
+	<head>
+	
+        <!--Referenciamos el CSS-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css' ) }}">
+		<title>
+		
+			Sugerencias
+		
+		</title>
+	
+	
+	</head>
+	
+	<body>
+	
+		<h1>DEJEN SUS SUGERENCIAS</h1>
+		<br>
+		<br>
+		<br>
+		
+		<div id = formulario>
+		
+			<form action="/sugerencias" method="post">
+					{{ mi_plantilla.hidden_tag() }}
+					{{ mi_plantilla.f_nombre.label }}
+					{{ mi_plantilla.f_nombre() }}
+					{{ mi_plantilla.f_telefono.label }}
+					{{ mi_plantilla.f_telefono() }}
+					{{ mi_plantilla.f_sugerencias.label }}
+					{{ mi_plantilla.f_sugerencias() }}
+					{{ mi_plantilla.f_envio() }}
+			</form>
+			
+		</div>
+		
+			
+	
+	
+	</body>
+	
+	
+			
+
